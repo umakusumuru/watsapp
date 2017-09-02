@@ -1,0 +1,64 @@
+<div class="container">
+
+    <div class="row">
+        <div class="col-3">
+            <div class="leftcls">
+                <div>
+                    <img src="images\girl.jpg" style="height: 60px;width: 60px" class="img-fluid rounded-circle img-thumbnail" alt="Cinque Terre">
+                </div>
+                <br>
+                <div class="scrollcls">
+                    <div ng-repeat="item in contactArray" class="contactCls" ng-click="test();">
+                        <img ng-src="{{item.img}}" style="height: 60px;width: 60px" class="img-fluid rounded-circle" alt="Cinque Terre">
+                        <label for="" style="cursor: pointer;">{{item.name}}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-9 rightcls">
+            <div class="clearfix">
+                <label for="from_label" class="col-form-label frmchatCls pull-right">hai dis is uma
+                        ⁠⁠⁠⁠⁠BRIDE FATHER VISIT OFFICE                                                                                                        111139088 - BE -  (Paid ) - ( Female ) , Kothai Gitanjali A, Adi Dravidar, DOR: 05-Apr-2017, , DOE: 12-Apr-2018, Paid: 3450, Profile Owner: SHOBA (BE002) 																		Unmarried, 5'1 , Age: 18-May-1987 (30), MBA, Human Resources Professional, Apex IT India Pvt Ltd, Bengaluru, KA, Preferences: Height Between 5'1  and 7'2
+                </label>
+            </div>
+            <div class="clearfix">
+                <label for="to_label" class="col-form-label tochatCls"> hai h r u</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .frmchatCls {
+        background-color: #ffffff;
+        padding: 1%;
+        border-radius: 15%;
+        max-width: 70%;
+    }
+    
+    .tochatCls {
+        background-color: #cdcded;
+        padding: 1%;
+        border-radius: 15%;
+        max-width: 70%;
+    }
+    
+    .leftcls {
+        border: 1px solid #ccc;
+    }
+    
+    .rightcls {
+        border: 1px solid #ccc;
+        background-color: #f6f3f4;
+    }
+    
+    .contactCls {
+        line-height: 76px;
+        cursor: pointer;
+    }
+    
+    .scrollcls {
+        overflow-y: auto;
+        max-height: 600px;
+    }
+</style>

@@ -1,0 +1,32 @@
+{
+  "name": "testangular",
+  "version": "1.0.0",
+  "description": "testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "uma",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "angular-ui-router": "^0.4.2",
+    "bootstrap": "4.0.0-alpha.6",
+    "bundle": "^0.2.3",
+    "font-awesome": "latest",
+    "gulp": "latest",
+    "gulp-coffee": "latest",
+    "gulp-concat": "latest",
+    "gulp-connect": "latest",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlclean": "^2.7.14",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-sass": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "jquery": "^3.2.1",
+    "tether": "^1.4.0"
+  }
+}
